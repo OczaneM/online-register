@@ -1,4 +1,4 @@
-var pages = ['landingPage', 'projectsPage', 'recentlyPage', 'contactPage', 'footerPage']
+var pages = ['landingPage', 'aboutPage', 'tournamentPage']
 
 $(document).ready(function() {
 	$('#fullpage').fullpage({
@@ -7,7 +7,7 @@ $(document).ready(function() {
 		navigation: true,
 		scrollingSpeed: 900,
 		navigationPosition: 'right',
-		navigationTooltips: ['', 'projects', 'recently', 'contact', ''],
+		navigationTooltips: ['', 'about', 'tournament'],
 		scrollOverflow: true,
 		touchSensitivity: 10,
 		css3:true,
