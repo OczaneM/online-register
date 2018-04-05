@@ -5,6 +5,7 @@ body {
 }
 
 .box-center {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 80vw;
 }
