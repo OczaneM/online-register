@@ -3,17 +3,25 @@
   color: white;
 }
 
+.logo {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2.4vh;
+  padding-bottom: 4vh;
+}
+
 .intro-heading {
   font-size: 6vh;
   font-weight: 700;
   text-align: center;
   padding: .6em;
   margin: auto;
-  border: 1.5px solid #7aff4a
+  border: 1.5px solid #7aff4a;
+  width: 50vw;
 }
 
 .intro-subheading {
-  font-size: 4vh;
+  font-size: 3.5vh;
   text-align: center;
   font-weight: 700;
   margin-top: 5vh;
@@ -24,4 +32,32 @@
   text-align: center;
   margin-top: 4vh;
   font-weight: 300;
+}
+
+.scroll-box {
+  text-align: center;
+}
+
+.scroll-text {
+  font-size: 3vh;
+  font-weight: 400;
+  margin-top: 5.5vh;
+}
+
+.down-arrow-btn {
+  font-size: 5vh;
+  font-weight: 300;
+  margin-top: 1vh;
+  animation-name: color-blink;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes color-blink {
+  0% {color: rgb(255, 167, 52); opacity: 1}
+  25% {color: rgb(0, 119, 255); opacity: 0}
+  50% {color: rgb(0, 255, 106); opacity: 1}
+  75% {color: rgb(98, 0, 255); opacity: 0}
+  100% {color: rgb(255, 34, 34); opacity: 1}
 }
