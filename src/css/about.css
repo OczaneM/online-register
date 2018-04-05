@@ -21,23 +21,33 @@
   font-weight: 300;
 }
 
+#about .scroll-box {
+  margin-top: 5vh;
+}
+
 .regulations-box {
   width: 80vw;
+  overflow: auto;
+  width: 80vw;
+  height: 20vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
-.regulations-box ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.regulations-box li {
+.regulation {
   float: left;
-  width: 5vw;
-  margin: 0;
+  width: 15vw;
+  height: 15vh;
+  margin: 1vw;
   background-color: blue;
 }
 
+.regulations-center {
+  margin-right: auto;
+  margin-left: auto;
+  width: 70vw;
+}
+
 .clear {
-  clear: right;
+  clear: left;
 }
