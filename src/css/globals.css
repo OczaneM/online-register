@@ -3,3 +3,8 @@
 body {
   font-family: 'Roboto Slab', serif;
 }
+
+.box-center {
+  margin: auto;
+  width: 20em;
+}
