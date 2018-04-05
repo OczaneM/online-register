@@ -20,7 +20,7 @@
 }
 
 #swinnis-logo-img {
-  width: 14vw;
+  width: 18vh;
   margin-bottom: 2vh;
 }
 
@@ -30,7 +30,7 @@
   text-align: center;
   padding: .5em;
   margin: auto;
-  border: 1.5px solid #ecff4a;
+  border: 1px solid #ecff4a;
   width: 77vw;
 }
 
@@ -73,6 +73,6 @@
   0% {color: rgb(255, 167, 52); opacity: 1}
   25% {color: rgb(0, 119, 255); opacity: 0}
   50% {color: rgb(0, 255, 106); opacity: 1}
-  75% {color: rgb(98, 0, 255); opacity: 0}
-  100% {color: rgb(255, 34, 34); opacity: 1}
+  75% {color: rgb(130, 52, 255); opacity: 0}
+  100% {color: rgb(252, 81, 81); opacity: 1}
 }
