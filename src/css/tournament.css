@@ -1,0 +1,61 @@
+#tournament {
+  color: white;
+  background-color: #27245e;
+  text-align: center;
+}
+
+#tournament .logo {
+  position: absolute;
+  top: 5vh;
+  left: 44vw;
+  margin: 0;
+}
+
+#tournament p {
+  font-weight: 400;
+  font-size: 1.5vh;
+}
+
+#tournament #swinnis-logo-img {
+  width: 8vw;
+}
+
+.ann-call-to-action {
+  font-size: 2.3vw;
+  font-weight: 400;
+}
+
+.ann-heading-box {
+  border :1px solid rgb(252, 113, 32);
+  padding: 1em;
+  margin-bottom: 3vh;
+  margin-top: 18vh;
+  width: 60vw;
+}
+
+.ann-heading {
+  font-size: 4vw;
+  font-weight: 700;
+}
+
+.ann-sub-heading {
+  margin: 2vh;
+  font-size: 1.7vw;
+  font-weight: 700;
+}
+
+.annsub-heading-text {
+  margin: 2vh;
+  font-size: 2vh;
+  font-weight: 300;
+}
+
+.register-container {
+  background-color: #d0d1d4;
+  height: 30vh;
+  margin-top: 6vh;
+}
+
+#tournament footer {
+  height: 10vh;
+}
