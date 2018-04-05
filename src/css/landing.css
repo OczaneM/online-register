@@ -1,3 +1,27 @@
 #landing {
   background-color: #569952;
+  color: white;
+}
+
+.intro-heading {
+  font-size: 6vh;
+  font-weight: 700;
+  text-align: center;
+  padding: .6em;
+  margin: auto;
+  border: 1.5px solid #7aff4a
+}
+
+.intro-subheading {
+  font-size: 4vh;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 5vh;
+}
+
+.intro-subheading-text {
+  font-size: 2.4vh;
+  text-align: center;
+  margin-top: 4vh;
+  font-weight: 300;
 }

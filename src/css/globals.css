@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
 
 body {
   font-family: 'Roboto Slab', serif;
@@ -6,5 +6,5 @@ body {
 
 .box-center {
   margin: auto;
-  width: 20em;
+  width: 80vw;
 }
