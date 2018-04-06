@@ -11,11 +11,6 @@
   margin: 0;
 }
 
-#tournament p {
-  font-weight: 400;
-  font-size: 1.5vh;
-}
-
 #tournament #swinnis-logo-img {
   width: 8vw;
 }
@@ -54,6 +49,23 @@
   background-color: #d0d1d4;
   height: 30vh;
   margin-top: 6vh;
+}
+
+.register-container p {
+  color: #27245e;
+  font-weight: 400;
+  font-size: 2vh;
+  margin: 1vh;
+}
+
+#tournament input {
+  width: 22vw;
+  height: 5vh;
+  margin: 1vw;
+  border: 0;
+  border-radius: 30px;
+  padding-left: 10px;
+  font-size: 2vh;
 }
 
 #tournament footer {

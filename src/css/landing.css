@@ -74,11 +74,6 @@
   color: #ecff4a;
 }
 
-.pink {
-  display: inline;
-  color: pink;
-}
-
 @keyframes color-blink {
   0% {color: rgb(255, 167, 52); opacity: 1}
   25% {color: rgb(0, 119, 255); opacity: 0}
