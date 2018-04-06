@@ -1,0 +1,19 @@
+{
+  "name": "tennis-for-women",
+  "version": "1.0.0",
+  "description": "A website that permits you to register for the latest held Tennis Tournament",
+  "engines": {
+    "node": ">= 7.0.0"
+  },
+  "scripts": {
+    "start-dev": "nodemon app.js -e html,js,scss",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.3",
+    "path": "^0.12.7"
+  }
+}
