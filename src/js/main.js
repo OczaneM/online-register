@@ -7,7 +7,7 @@ $(document).ready(function() {
 		navigation: true,
 		scrollingSpeed: 900,
 		navigationPosition: 'right',
-		navigationTooltips: ['', 'about', 'tournament'],
+		navigationTooltips: ['', 'sobre', 'registro'],
 		scrollOverflow: true,
 		touchSensitivity: 10,
 		css3:true,

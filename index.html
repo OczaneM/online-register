@@ -88,6 +88,21 @@
 </div>
 
  <!-- JS files -->
+
+ <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-database.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCzmKEm2VBbYbDh4cEFyc540CjkzG0EWAU",
+      authDomain: "tennisforwomen.firebaseapp.com",
+      databaseURL: "https://tennisforwomen.firebaseio.com",
+      projectId: "tennisforwomen",
+      storageBucket: "tennisforwomen.appspot.com",
+      messagingSenderId: "643312473647"
+    };
+    firebase.initializeApp(config);
+  </script>
  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
  <script src="src/js/jquery.color.js"></script>
  <script type="text/javascript" src="src/js/jquery.fullPage.js"></script>
