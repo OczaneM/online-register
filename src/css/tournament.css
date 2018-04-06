@@ -35,13 +35,13 @@
 
 .ann-sub-heading {
   margin: 2vh;
-  font-size: 1.7vw;
+  font-size: 2.7vh;
   font-weight: 700;
 }
 
-.annsub-heading-text {
+.ann-sub-heading-text {
   margin: 2vh;
-  font-size: 2vh;
+  font-size: 2.4vh;
   font-weight: 300;
 }
 
@@ -49,6 +49,7 @@
   background-color: #d0d1d4;
   height: 30vh;
   margin-top: 6vh;
+  padding: .3vh;
 }
 
 .register-container p {
@@ -56,18 +57,48 @@
   font-weight: 400;
   font-size: 2vh;
   margin: 1vh;
+  padding-top: 1vh;
 }
 
 #tournament input {
   width: 22vw;
-  height: 5vh;
-  margin: 1vw;
+  height: 4vh;
+  margin: .5vw;
   border: 0;
   border-radius: 30px;
-  padding-left: 10px;
-  font-size: 2vh;
+  padding-left: 15px;
+  font-size: 1.7vh;
 }
 
 #tournament footer {
   height: 10vh;
+}
+
+.register-btn {
+  border: 0;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 2vh;
+  font-weight: 400;
+  background: #8bb6fb;
+  padding: 13px 31px 14px 27px;
+  text-decoration: none;
+}
+
+.captcha {
+  display: block;
+  width: 15vw;
+  height: 8vh;
+  border: 1px solid white;
+  margin: 1vh;
+}
+
+.register-btn:hover {
+  background: #ffffff;
+  text-decoration: none;
+  color: #27245e;
+  cursor: pointer;
 }
