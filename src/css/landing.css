@@ -1,6 +1,6 @@
 #landing {
   color: white;
-  background: #569952 url(../assets/intro-lineart-bg.png) no-repeat center center fixed;
+  background: #569952 url(../assets/intro-lineart2-bg.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -67,6 +67,16 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
 
+}
+
+.green {
+  display: inline;
+  color: #ecff4a;
+}
+
+.pink {
+  display: inline;
+  color: pink;
 }
 
 @keyframes color-blink {
