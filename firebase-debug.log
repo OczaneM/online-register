@@ -1,0 +1,32 @@
+[debug] [2018-04-07T12:18:50.166Z] ----------------------------------------------------------------------
+[debug] [2018-04-07T12:18:50.171Z] Command:       /usr/local/bin/node /home/oczane/.npm-global/bin/firebase serve
+[debug] [2018-04-07T12:18:50.171Z] CLI Version:   3.18.2
+[debug] [2018-04-07T12:18:50.171Z] Platform:      linux
+[debug] [2018-04-07T12:18:50.171Z] Node Version:  v8.9.0
+[debug] [2018-04-07T12:18:50.172Z] Time:          Sat Apr 07 2018 08:18:50 GMT-0400 (EDT)
+[debug] [2018-04-07T12:18:50.172Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-07T12:18:50.190Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-07T12:18:50.191Z] > authorizing via signed-in user
+[debug] [2018-04-07T12:18:50.194Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tennisforwomen  
+  
+ Sat Apr 07 2018 08:18:50 GMT-0400 (EDT)
+[debug] [2018-04-07T12:18:50.626Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-07T12:18:50.628Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tennisforwomen/tokens  
+  
+ Sat Apr 07 2018 08:18:50 GMT-0400 (EDT)
+[debug] [2018-04-07T12:18:51.026Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-07T12:18:51.028Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/tennisforwomen  
+  
+ Sat Apr 07 2018 08:18:51 GMT-0400 (EDT)
+[debug] [2018-04-07T12:18:51.385Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/oczane/Documents/TennisForWomen/online-register'...
+[info] 
+[debug] [2018-04-07T12:18:51.394Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/643312473647/clients/_:getWebAppConfig  
+  
+ Sat Apr 07 2018 08:18:51 GMT-0400 (EDT)
+[debug] [2018-04-07T12:18:51.825Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+

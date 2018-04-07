@@ -1,4 +1,5 @@
 var pages = ['landingPage', 'aboutPage', 'tournamentPage']
+import firebase from 'firebase'
 
 $(document).ready(function() {
 	$('#fullpage').fullpage({
