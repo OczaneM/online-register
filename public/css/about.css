@@ -22,12 +22,16 @@
 }
 
 #about .scroll-box {
-  margin-top: 5vh;
+  margin-top: 2vh;
+}
+.center {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .regulations-box {
   width: 80vw;
-  overflow: auto;
+  overflow: hidden;
   width: 80vw;
   height: 20vh;
   margin-top: 5vh;
@@ -37,9 +41,14 @@
 .regulation {
   float: left;
   width: 15vw;
-  height: 15vh;
+  height: 20vh;
   margin: 1vw;
-  background-color: blue;
+  text-align: center;
+}
+
+.regulation p {
+  font-weight: 700;
+  font-size: 2vh;
 }
 
 .regulations-center {
@@ -48,6 +57,26 @@
   width: 70vw;
 }
 
-.clear {
-  clear: left;
+.fa-gift {
+  display: block;
+  color: #ee5f5f;
+  font-size: 8vh;
+}
+
+.fa-clipboard-list {
+  display: block;
+  color: #f77744;
+  font-size: 8vh;
+}
+
+.fa-money-bill-alt {
+  display: block;
+  color: #21c921;
+  font-size: 8vh;
+}
+
+.fa-users {
+  display: block;
+  color: #b3b3b3;
+  font-size: 8vh;
 }
