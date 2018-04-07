@@ -101,3 +101,64 @@
   color: #27245e;
   cursor: pointer;
 }
+
+.fa-star {
+  position: absolute;
+  color: yellow;
+  font-size: 8vh;
+}
+
+.still-1, .still2 {
+  animation-name: slow-blink;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.still-1 {
+  color: #d85615;
+  top: 10vh;
+  left: 15vh;
+}
+
+.still-2 {
+  color: #a5d815;
+  top: 50vh;
+  left: 90vw;
+}
+
+.shooting1, .shooting2, .shooting3 {
+  animation-name: falling-star;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.shooting1 {
+  color: pink;
+  top: 40vh;
+  left: 80vw;
+}
+
+.shooting2 {
+  color: orange;
+  top: 60vh;
+  left: 85vw;
+}
+
+.shooting3 {
+  color: white;
+  top: 70vh;
+  left: 40vw;
+}
+
+@keyframes slow-blink {
+  0% {opacity: 1;}
+  50% {opacity: .5;}
+  100% {opacity: 1;}
+}
+
+@keyframes falling-star {
+  0% {opacity: .5;}
+  50% {opacity: 1;}
+  100% {opacity: 0; top: 120vh; left: -10vw;}
+
+}
