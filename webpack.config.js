@@ -1,11 +1,11 @@
 const path = require('path');
 
 module.exports = {
-  entry: './public/index.html',
-  output: {
-    path: __dirname,
-    filename: './public/bundle.js'
-  },
+    entry: './public/js/main.js',
+    output: {
+      path: __dirname,
+      filename: './public/bundle.js'
+    },
   devtool: 'source-map',
   module: {
     rules: [
