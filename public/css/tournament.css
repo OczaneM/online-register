@@ -73,6 +73,25 @@
   background-color: white;
 }
 
+#footer-logo {
+  width: 5vw;
+  height: 5vh;
+  display: inline-block;
+}
+
+.divider {
+  display: inline;
+  border-right:1px solid rgb(255, 51, 0);
+  height: 5vh;
+}
+
+#contact, #social {
+  font-weight: 300;
+  font-size: 5vh;
+  display: inline;
+  color: rgb(32, 32, 32);
+}
+
 .register-btn {
   border: 0;
   -webkit-border-radius: 28;
