@@ -4,15 +4,19 @@
   text-align: center;
 }
 
-#tournament .logo {
+#tournament .logo  {
   position: absolute;
   top: 5vh;
   left: 44vw;
   margin: 0;
 }
 
+#tournament .logo p {
+  font-size: 2vh;
+}
+
 #tournament #swinnis-logo-img {
-  width: 8vw;
+  width: 7vw;
 }
 
 .ann-call-to-action {
@@ -45,6 +49,11 @@
   font-weight: 300;
 }
 
+.ann-date {
+  font-size: 2.2vh;
+  font-weight: 700;
+}
+
 .register-container {
   background-color: #d0d1d4;
   height: 36vh;
@@ -71,25 +80,31 @@
 #tournament footer {
   height: 10vh;
   background-color: white;
+  text-align: left;
 }
 
-#footer-logo {
-  width: 5vw;
-  height: 5vh;
-  display: inline-block;
-}
-
-.divider {
-  display: inline;
-  border-right:1px solid rgb(255, 51, 0);
-  height: 5vh;
-}
-
-#contact, #social {
-  font-weight: 300;
-  font-size: 5vh;
-  display: inline;
+.footer-logo-container, .contact-container {
+  width: 49.4vw;
+  text-align: center;
   color: rgb(32, 32, 32);
+  font-weight: 300;
+  font-size: 2vh;
+  display: inline-block;
+  margin: 0;
+}
+
+.contact-container {
+  font-size: 3vh;
+}
+
+.contact-container p {
+  font-size: 2vh;
+  margin: 0;
+}
+
+.footer-logo {
+  height: 6vh;
+  margin-top: 2vh;
 }
 
 .register-btn {
