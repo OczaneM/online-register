@@ -27,7 +27,8 @@ $(document).ready(function() {
 var database = firebase.database()
 
 const writeUserData = (e) => {
-database.ref('tournaments/TXWtHSgxJJa9LUeOMTYy/players').set({
+database.ref('tournaments/iSurvived/players/JaelRivera').set(
+	{
 	firstName: e.target.first.value,
 	lastName: e.target.last.value,
 	phone: e.target.phoneNumber.value,
@@ -47,23 +48,21 @@ var club = document.getElementById('club')
 const checkInputs = (e) => {
 	var allChecked = true
 	if (e.target.first.value === '') {
-		e.target.innerHTML = 'Field cannot be empty.'
+		e.target.text = 'Field cannot be empty.'
 		allChecked = false
 	}
 	if (e.target.last.value === '') {
-		e.target.innerHTML = 'Field cannot be empty.'
+		e.target.text = 'Field cannot be empty.'
 		allChecked = false
 	}
 	if (e.target.phoneNumber.value === '') {
-		e.target.innerHTML = 'Field cannot be empty.'
+		e.target.text = 'Field cannot be empty.'
 		allChecked = false
 	}
 	if (allChecked) {
 		writeUserData(e)
 	}
-	else {
 		e.preventDefault()
-	}
 }
 
 //Event Handling
