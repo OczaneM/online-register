@@ -25,15 +25,16 @@ $(document).ready(function() {
 
 // DATABASE OPERATIONS
 var database = firebase.database()
-
+var symbols = /[!@#$%^&*()_+=-]/g
 const writeUserData = (e) => {
-database.ref('tournaments/iSurvived/players/JaelRivera').set(
-	{
-	firstName: e.target.first.value,
-	lastName: e.target.last.value,
-	phone: e.target.phoneNumber.value,
-	club: e.target.tennisClub.value
-})
+	var phoneNum = e.target.phoneNumber.value.replace(symbols, '')
+	database.ref(`tournaments/iSurvived/players/${phoneNum}`).set(
+		{
+			firstName: e.target.first.value,
+			lastName: e.target.last.value,
+			phone: e.target.phoneNumber.value,
+			club: e.target.tennisClub.value || 'N/A'
+	})
 }
 
 
@@ -61,6 +62,8 @@ const checkInputs = (e) => {
 	}
 	if (allChecked) {
 		writeUserData(e)
+		registerForm.reset()
+		alert('Register Succesful!')
 	}
 		e.preventDefault()
 }
