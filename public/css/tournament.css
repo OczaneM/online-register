@@ -41,7 +41,7 @@
 
 .ann-sub-heading-text {
   margin: 2vh;
-  font-size: 2.4vh;
+  font-size: 2.2vh;
   font-weight: 300;
 }
 
@@ -105,60 +105,55 @@
 .fa-star {
   position: absolute;
   color: yellow;
-  font-size: 8vh;
-}
-
-.still-1, .still2 {
+  font-size: 2vh;
   animation-name: slow-blink;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 
-.still-1 {
+.star1 {
   color: #d85615;
-  top: 10vh;
+  top: 8vh;
   left: 15vh;
+  animation-delay: 1s;
 }
 
-.still-2 {
+.star2 {
   color: #a5d815;
   top: 50vh;
   left: 90vw;
 }
 
-.shooting1, .shooting2, .shooting3 {
-  animation-name: falling-star;
+.star3 {
+  color: #a5d815;
+  top: 5vh;
+  left: 70vw;
+  animation-delay: 1s;
   animation-duration: 3s;
-  animation-iteration-count: infinite;
 }
 
-.shooting1 {
-  color: pink;
+.star4 {
+  color: #d85615;
+  top: 25vh;
+  left: 87vw;
+  animation-delay: 1s;
+}
+
+.star5 {
+  color: rgb(76, 184, 235);
   top: 40vh;
-  left: 80vw;
+  left: 5vw;
+  animation-duration: 3s;
 }
 
-.shooting2 {
-  color: orange;
-  top: 60vh;
-  left: 85vw;
-}
-
-.shooting3 {
-  color: white;
-  top: 70vh;
-  left: 40vw;
+.star6 {
+  color: rgb(76, 184, 235);
+  top: 13vh;
+  left: 35vw;
 }
 
 @keyframes slow-blink {
   0% {opacity: 1;}
-  50% {opacity: .5;}
+  50% {opacity: .3;}
   100% {opacity: 1;}
-}
-
-@keyframes falling-star {
-  0% {opacity: .5;}
-  50% {opacity: 1;}
-  100% {opacity: 0; top: 120vh; left: -10vw;}
-
 }
