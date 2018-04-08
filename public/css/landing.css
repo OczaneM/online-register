@@ -81,3 +81,19 @@
   75% {color: rgb(130, 52, 255); opacity: 0}
   100% {color: rgb(252, 81, 81); opacity: 1}
 }
+
+@media screen and (max-width: 670px) {
+
+  #swinnis-logo-img {
+    width: 13vh;
+  }
+
+  .about-content header {
+    font-size: 4vh;
+  }
+
+  .about-content p {
+    font-size: 2vh;
+  }
+
+}
