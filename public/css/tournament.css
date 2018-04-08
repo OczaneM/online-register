@@ -5,10 +5,8 @@
 }
 
 #tournament .logo  {
-  position: absolute;
-  top: 5vh;
-  left: 44vw;
   margin: 0;
+  margin-top: 5vh;
 }
 
 #tournament .logo p {
@@ -28,7 +26,6 @@
   border :1px solid rgb(252, 113, 32);
   padding: 1em;
   margin-bottom: 3vh;
-  margin-top: 18vh;
   width: 60vw;
 }
 
@@ -202,4 +199,30 @@
   0% {opacity: 1;}
   50% {opacity: .3;}
   100% {opacity: 1;}
+}
+
+@media screen and (max-width: 670px) {
+    #tournament #swinnis-logo-img {
+      width: 8vh;
+  }
+
+  .ann-call-to-action {
+    font-size: 2.3vh;
+  }
+
+  .ann-heading {
+    font-size: 3.5vh;
+  }
+
+  .ann-sub-heading {
+    font-size: 2vh;
+  }
+
+  .ann-sub-heading-text, .ann-date {
+    font-size: 2vh;
+  }
+
+  #tournament select {
+    width: 39vw;
+  }
 }
