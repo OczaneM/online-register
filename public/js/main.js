@@ -34,7 +34,9 @@ const writeUserData = (e) => {
 			firstName: e.target.first.value,
 			lastName: e.target.last.value,
 			phone: e.target.phoneNumber.value,
-			club: e.target.tennisClub.value || 'N/A'
+			club: e.target.tennisClub.value || 'N/A',
+			partner: e.target.partner.value,
+			level: e.target.level.value
 	})
 	registerForm.reset()
 	alert('Registo Exitoso!')
@@ -50,6 +52,10 @@ lastName.required = true
 var phone = document.getElementById('phone')
 phone.required = true
 var club = document.getElementById('club')
+var gotParter = document.getElementById('partner')
+gotParter.required = true
+var level = document.getElementById('level')
+level.required = true
 
 //Form Functions
 const checkInputs = (e) => {

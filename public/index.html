@@ -95,15 +95,24 @@
         <input id="last-name" type="text" placeholder="Apellido" name="last">
         <br/>
         <input id="phone" type="text" placeholder="Número de Teléfono" name="phoneNumber">
-        <input id="club" type="text" placeholder="Tu Club de Tennis o N/A" name="tennisClub">
+        <input id="club" type="text" placeholder="Club de Tennis (deja en blanco si no tienes)" name="tennisClub">
         <br/>
         <select id="partner" name="partner">
+          <option value="">Traes Pareja?</option>
           <option value="yes">yes</option>
-          <option value="no" selected>no</option>
+          <option value="no">no</option>
+        </select>
+        <select id="level" name="level">
+          <option value="">Nivel de Juego</option>
+          <option value="2.0">2.0</option>
+          <option value="2.5">2.5</option>
+          <option value="3.0">3.0</option>
+          <option value="3.5">3.5</option>
+          <option value="4.0">4.0</option>
+          <option value="4.5">4.5</option>
+          <option value="5.0">5.0</option>
         </select>
         <div class="captcha box-center  "></div>
-        // Partner -> seleccion
-        // Nivel de juego - numero
         <button class="register-btn" type="submit">Cuenta Conmigo!</button>
       </form>
     </div>

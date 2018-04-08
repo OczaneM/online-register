@@ -56,7 +56,7 @@
 
 .register-container {
   background-color: #d0d1d4;
-  height: 36vh;
+  height: 42vh;
   margin-top: 6vh;
   padding: 2vh;
 }
@@ -72,9 +72,21 @@
   height: 4.5vh;
   margin: .5vw;
   border: 0;
-  border-radius: 30px;
+  border-radius: 25px;
   padding-left: 15px;
   font-size: 1.7vh;
+}
+
+#tournament select {
+  width: 36vw;
+  height: 4.8vh;
+  margin: .5vw;
+  background: white;
+  padding: 2px 21px;
+  border: none;
+  color: #27245e;
+  border-radius: 25px;
+  -webkit-appearance: none;
 }
 
 #tournament footer {
