@@ -13,8 +13,17 @@
   font-size: 2vh;
 }
 
-#tournament #swinnis-logo-img {
+#tournament #swinnis-logo-img{
   width: 7vw;
+}
+
+.orro-logo {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 2.9vh;
+  text-align: center;
+  margin-left: 4vh;
+  line-height: 2.8vh;
 }
 
 .ann-call-to-action {
