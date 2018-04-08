@@ -57,26 +57,50 @@
   width: 70vw;
 }
 
-.fa-gift {
+.fa-gift, .fa-clipboard-list, .fa-money-bill-alt, .fa-users {
   display: block;
   color: #ffffff;
   font-size: 8vh;
 }
 
-.fa-clipboard-list {
-  display: block;
-  color: #ffffff;
-  font-size: 8vh;
-}
+@media screen and (max-width: 670px) {
 
-.fa-money-bill-alt {
-  display: block;
-  color: #ffffff;
-  font-size: 8vh;
-}
+    #swinnis-logo-img {
+      width: 13vh;
+    }
 
-.fa-users {
-  display: block;
-  color: #ffffff;
-  font-size: 8vh;
-}
+    .about-content header {
+      font-size: 4vh;
+      margin-bottom: 2vh;
+    }
+
+    .about-content p {
+      font-size: 1.9vh;
+      margin-top: 0;
+    }
+
+    .regulation {
+      height: 10vh;
+      margin: 2vw;
+      width: 30vw;
+    }
+
+    .regulations-box {
+      margin: 0;
+      height: 27vh;
+    }
+
+    .regulations-box p {
+      font-size: 1.8vh;
+      margin: 1vw;
+    }
+
+    .fa-gift, .fa-clipboard-list, .fa-money-bill-alt, .fa-users {
+      font-size: 5vh;
+    }
+
+    #about .scroll-box {
+      margin-top: -4vh;
+    }
+
+  }
