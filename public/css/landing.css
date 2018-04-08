@@ -1,6 +1,6 @@
 #landing {
   color: white;
-  background: #569952 url(../assets/intro-lineart2-bg.png) no-repeat center center fixed;
+  background: #4eaf48 url(../assets/intro-lineart2-bg.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -82,7 +82,7 @@
   100% {color: rgb(252, 81, 81); opacity: 1}
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 820px) {
 
   #swinnis-logo-img {
     width: 13vh;
