@@ -166,20 +166,20 @@
 .star1 {
   color: #d85615;
   top: 8vh;
-  left: 15vh;
+  left: 15vw;
   animation-delay: 1s;
 }
 
 .star2 {
   color: #a5d815;
   top: 50vh;
-  left: 90vw;
+  left: 85vw;
 }
 
 .star3 {
   color: #a5d815;
   top: 5vh;
-  left: 70vw;
+  left: 80vw;
   animation-delay: 1s;
   animation-duration: 3s;
 }
@@ -201,7 +201,7 @@
 .star6 {
   color: rgb(76, 184, 235);
   top: 13vh;
-  left: 35vw;
+  left: 30vw;
 }
 
 @keyframes slow-blink {
