@@ -49,7 +49,6 @@ var lastName = document.getElementById('last-name')
 lastName.required = true
 var phone = document.getElementById('phone')
 phone.required = true
-phone.min = '10'
 var club = document.getElementById('club')
 
 //Form Functions
