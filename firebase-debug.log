@@ -1,41 +1,32 @@
-[debug] [2018-04-08T07:04:29.702Z] ----------------------------------------------------------------------
-[debug] [2018-04-08T07:04:29.705Z] Command:       /usr/local/bin/node /home/oczane/.npm-global/bin/firebase serve
-[debug] [2018-04-08T07:04:29.705Z] CLI Version:   3.18.2
-[debug] [2018-04-08T07:04:29.705Z] Platform:      linux
-[debug] [2018-04-08T07:04:29.705Z] Node Version:  v8.9.0
-[debug] [2018-04-08T07:04:29.705Z] Time:          Sun Apr 08 2018 03:04:29 GMT-0400 (EDT)
-[debug] [2018-04-08T07:04:29.705Z] ----------------------------------------------------------------------
+[debug] [2018-04-08T07:45:08.675Z] ----------------------------------------------------------------------
+[debug] [2018-04-08T07:45:08.676Z] Command:       /usr/local/bin/node /home/oczane/.npm-global/bin/firebase serve
+[debug] [2018-04-08T07:45:08.677Z] CLI Version:   3.18.2
+[debug] [2018-04-08T07:45:08.677Z] Platform:      linux
+[debug] [2018-04-08T07:45:08.677Z] Node Version:  v8.9.0
+[debug] [2018-04-08T07:45:08.677Z] Time:          Sun Apr 08 2018 03:45:08 GMT-0400 (EDT)
+[debug] [2018-04-08T07:45:08.677Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-04-08T07:04:29.751Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-04-08T07:04:29.751Z] > authorizing via signed-in user
-[debug] [2018-04-08T07:04:29.754Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-04-08T07:04:29.754Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- { refresh_token: '1/G1PVAA5I9J27nELaxiP5BMM3FGswDCU1akPQTrRkXq4',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Sun Apr 08 2018 03:04:29 GMT-0400 (EDT)
-[debug] [2018-04-08T07:04:30.062Z] <<< HTTP RESPONSE 200
-[debug] [2018-04-08T07:04:30.277Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tennisforwomen  
+[debug] [2018-04-08T07:45:08.710Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-08T07:45:08.710Z] > authorizing via signed-in user
+[debug] [2018-04-08T07:45:08.712Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tennisforwomen  
   
- Sun Apr 08 2018 03:04:30 GMT-0400 (EDT)
-[debug] [2018-04-08T07:04:31.096Z] <<< HTTP RESPONSE 200
-[debug] [2018-04-08T07:04:31.098Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tennisforwomen/tokens  
+ Sun Apr 08 2018 03:45:08 GMT-0400 (EDT)
+[debug] [2018-04-08T07:45:10.663Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-08T07:45:10.663Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tennisforwomen/tokens  
   
- Sun Apr 08 2018 03:04:31 GMT-0400 (EDT)
-[debug] [2018-04-08T07:04:31.698Z] <<< HTTP RESPONSE 200
-[debug] [2018-04-08T07:04:31.699Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/tennisforwomen  
+ Sun Apr 08 2018 03:45:10 GMT-0400 (EDT)
+[debug] [2018-04-08T07:45:11.100Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-08T07:45:11.101Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/tennisforwomen  
   
- Sun Apr 08 2018 03:04:31 GMT-0400 (EDT)
-[debug] [2018-04-08T07:04:32.934Z] <<< HTTP RESPONSE 200
+ Sun Apr 08 2018 03:45:11 GMT-0400 (EDT)
+[debug] [2018-04-08T07:45:11.776Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from '/home/oczane/Documents/TennisForWomen/online-register'...
 [info] 
-[debug] [2018-04-08T07:04:32.936Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/643312473647/clients/_:getWebAppConfig  
+[debug] [2018-04-08T07:45:11.778Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/643312473647/clients/_:getWebAppConfig  
   
- Sun Apr 08 2018 03:04:32 GMT-0400 (EDT)
-[debug] [2018-04-08T07:04:34.089Z] <<< HTTP RESPONSE 200
+ Sun Apr 08 2018 03:45:11 GMT-0400 (EDT)
+[debug] [2018-04-08T07:45:12.935Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] ✔  hosting: Local server: http://localhost:5000
 
