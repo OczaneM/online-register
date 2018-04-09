@@ -62,7 +62,6 @@
 .down-arrow-btn {
   font-size: 5vh;
   font-weight: 300;
-  margin-top: 1vh;
   animation-name: color-blink;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -86,14 +85,6 @@
 
   #swinnis-logo-img {
     width: 13vh;
-  }
-
-  .about-content header {
-    font-size: 4vh;
-  }
-
-  .about-content p {
-    font-size: 2vh;
   }
 
 }

@@ -16,9 +16,15 @@
   text-align: center;
 }
 
-.about-content p {
+.about-content-text {
   font-size: 2.3vh;
   font-weight: 300;
+  margin-bottom: 1vh;
+  text-align: justify;
+}
+
+#article-details {
+  margin: 0;
 }
 
 #about .scroll-box {
@@ -41,20 +47,19 @@
 .regulation {
   float: left;
   width: 15vw;
-  height: 20vh;
   margin: 1vw;
   text-align: center;
 }
 
-.regulation p {
+.regulation-text {
   font-weight: 700;
-  font-size: 2vh;
+  font-size: 1.8vh;
+  text-align: center;
 }
 
 .regulations-center {
   margin-right: auto;
   margin-left: auto;
-  width: 70vw;
 }
 
 .fa-gift, .fa-clipboard-list, .fa-money-bill-alt, .fa-users {
@@ -74,23 +79,21 @@
       margin-bottom: 2vh;
     }
 
-    .about-content p {
+    .about-content-text {
       font-size: 1.9vh;
       margin-top: 0;
     }
 
     .regulation {
-      height: 10vh;
-      margin: 2vw;
-      width: 30vw;
+      width: 32vw;
     }
 
     .regulations-box {
       margin: 0;
-      height: 27vh;
+      height: 22.5vh;
     }
 
-    .regulations-box p {
+    .regulation-text {
       font-size: 1.8vh;
       margin: 1vw;
     }
@@ -100,7 +103,8 @@
     }
 
     #about .scroll-box {
-      margin-top: -4vh;
+      margin-top: -5vh;
     }
+
 
   }
