@@ -64,7 +64,7 @@
 
 .register-container {
   background-color: #d0d1d4;
-  height: 43vh;
+  height: 36vh;
   margin-top: 6vh;
   padding: 2vh;
 }
@@ -139,6 +139,7 @@
   background: #8bb6fb;
   padding: 13px 31px 14px 27px;
   text-decoration: none;
+  margin-top: 2.5vh;
 }
 
 .captcha {
@@ -234,6 +235,6 @@
   }
 
   #tournament select {
-    width: 39vw;
+    width: 40vw;
   }
 }

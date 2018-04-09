@@ -28,6 +28,7 @@ var database = firebase.database()
 var symbols = /[!@#$%^&*()_+=-]/g
 const writeUserData = (e) => {
 	e.preventDefault()
+
 	var phoneNum = e.target.phoneNumber.value.replace(symbols, '')
 	database.ref(`tournaments/iSurvived/players/${phoneNum}`).set(
 		{
@@ -36,7 +37,7 @@ const writeUserData = (e) => {
 			phone: e.target.phoneNumber.value,
 			club: e.target.tennisClub.value || 'N/A',
 			partner: e.target.partner.value,
-			level: e.target.level.value
+			category: e.target.level.value
 	})
 	registerForm.reset()
 	alert('Registo Exitoso!')

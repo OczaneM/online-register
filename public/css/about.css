@@ -60,6 +60,7 @@
 .regulations-center {
   margin-right: auto;
   margin-left: auto;
+  width: 70vw;
 }
 
 .fa-gift, .fa-clipboard-list, .fa-money-bill-alt, .fa-users {
